@@ -8,5 +8,6 @@ public class Main {
         int number1 = k.nextInt();
         int number2 = k.nextInt();
         System.out.print(number1 + number2);
+        System.out.println("Что будет сейчас?");
     }
 }
