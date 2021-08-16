@@ -1,13 +1,29 @@
 package com.company;
-import java.util.Scanner;
-public class Main {
 
+import java.util.Scanner;
+
+public class Main {
     public static void main(String[] args) {
-        Scanner k = new Scanner(System.in);
-        System.out.println("Введите два числа: ");
-        int number1 = k.nextInt();
-        int number2 = k.nextInt();
-        System.out.print(number1 + number2);
-        System.out.println("Что будет сейчас?");
+        int value1;
+        int value2;
+        String operation;
+
+        System.out.println("Input:");
+        Scanner scanner = new Scanner(System.in);
+        value1 = scanner.nextInt();
+        operation = scanner.next();
+        value2 = scanner.nextInt();
+        if (operation.equals("+")) {
+            System.out.println(value1 + value2);
+        }
+        if (operation.equals("-")) {
+            System.out.println(value1 - value2);
+        }
+        if (operation.equals("*")) {
+            System.out.println("Output: " + "\n" + value1 * value2);
+        }
+        if (operation.equals("/")) {
+            System.out.println("Output: " + "\n" + value1 / value2);
+        }
     }
 }
