@@ -3,6 +3,7 @@ package com.company;
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
 
         System.out.println("Input:");
@@ -25,6 +26,8 @@ public class Main {
             if (operation.equals("/")) {
                 System.out.println("Output: " + "\n" + (number1 / number2));
             }
+        }  else {
+            System.out.println("Вы не выполнили все требования, увы :(");
         }
     }
 }
