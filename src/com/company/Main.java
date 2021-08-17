@@ -20,10 +20,10 @@ public class Main {
             System.out.println(value1 - value2);
         }
         if (operation.equals("*")) {
-            System.out.println(value1 * value2);
+            System.out.println("Output: " + "\n" + value1 * value2);
         }
         if (operation.equals("/")) {
-            System.out.println(value1 / value2);
+            System.out.println("Output: " + "\n" + value1 / value2);
         }
     }
 }
